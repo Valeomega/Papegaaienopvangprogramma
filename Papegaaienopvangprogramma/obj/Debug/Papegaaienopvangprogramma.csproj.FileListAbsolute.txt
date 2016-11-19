@@ -1,0 +1,10 @@
+c:\users\epcs\documents\visual studio 2015\Projects\Papegaaienopvangprogramma\Papegaaienopvangprogramma\bin\Debug\Papegaaienopvangprogramma.exe.config
+C:\Users\epcs\documents\visual studio 2015\Projects\Papegaaienopvangprogramma\Papegaaienopvangprogramma\bin\Debug\Papegaaienopvangprogramma.exe
+C:\Users\epcs\documents\visual studio 2015\Projects\Papegaaienopvangprogramma\Papegaaienopvangprogramma\bin\Debug\Papegaaienopvangprogramma.pdb
+C:\Users\epcs\documents\visual studio 2015\Projects\Papegaaienopvangprogramma\Papegaaienopvangprogramma\obj\Debug\Papegaaienopvangprogramma.csprojResolveAssemblyReference.cache
+C:\Users\epcs\documents\visual studio 2015\Projects\Papegaaienopvangprogramma\Papegaaienopvangprogramma\obj\Debug\Papegaaienopvangprogramma.Form1.resources
+C:\Users\epcs\documents\visual studio 2015\Projects\Papegaaienopvangprogramma\Papegaaienopvangprogramma\obj\Debug\Papegaaienopvangprogramma.Papegaaitoevoegen.resources
+C:\Users\epcs\documents\visual studio 2015\Projects\Papegaaienopvangprogramma\Papegaaienopvangprogramma\obj\Debug\Papegaaienopvangprogramma.Properties.Resources.resources
+C:\Users\epcs\documents\visual studio 2015\Projects\Papegaaienopvangprogramma\Papegaaienopvangprogramma\obj\Debug\Papegaaienopvangprogramma.csproj.GenerateResource.Cache
+C:\Users\epcs\documents\visual studio 2015\Projects\Papegaaienopvangprogramma\Papegaaienopvangprogramma\obj\Debug\Papegaaienopvangprogramma.exe
+C:\Users\epcs\documents\visual studio 2015\Projects\Papegaaienopvangprogramma\Papegaaienopvangprogramma\obj\Debug\Papegaaienopvangprogramma.pdb
