@@ -16,12 +16,18 @@ namespace Papegaaienopvangprogramma
 {
     public partial class Mainmenu : Form
     {
+        public REPO repoload = new REPO();
         public Mainmenu()
         {
             InitializeComponent();
+            try
+            {
+                repoload = savingandloading.ReadFromJsonFile<REPO>("C:/papegaaieninfo"); }
+            catch { repoload = new REPO(); }
         }
 
-        public REPO repoload = savingandloading.ReadFromJsonFile<REPO>("C:/papegaaieninfo");
+        
+
 
 
 

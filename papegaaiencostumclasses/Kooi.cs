@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace papegaaiencostumclasses
 {
-   public class Kooi
+    [Serializable]
+    public class Kooi
     {
         public int Kooinr { get; set; }
         public Vogelsoort vogelsoort { get; set; }

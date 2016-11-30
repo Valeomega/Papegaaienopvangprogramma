@@ -7,15 +7,52 @@ using System.IO;
 
 namespace papegaaiencostumclasses
 {
+    // REMEMBER REPO PRIVE LIST AND PUBLIC LIST OF ALL VARIABLES SO THEY CAN BE SAVED
     public class REPO
     {
         private List<Locatie> Locaties = new List<Locatie>();
 
         public List<Locatie> locaties { get { return Locaties; } }
-      //  public List<Vogelsoort> vogelsoort { get { return locaties. } }
 
+        private List<Kooi> Kooien = new List<Kooi>();
 
-        }
+        public List<Kooi> kooien { get { return Kooien; } }
+
+        private List<Vogelsoort> Vogelsoorten = new List<Vogelsoort>();
+
+        public List<Vogelsoort> vogelsoorten { get { return Vogelsoorten; } }
+
+        private List<Vogelondersoort> Vogelondersoorten = new List<Vogelondersoort>();
+
+        public List<Vogelondersoort> vogelondersoorten { get { return Vogelondersoorten; } }
+
+        private List<Voeding> Voedinglijst = new List<Voeding>();
+        public List<Voeding> voedinglijst { get { return Voedinglijst; } }
+
+        private List<Kuur> Kuren = new List<Kuur>();
+        
+        public List<Kuur> kuren { get { return Kuren; } }
+
+        private List<Medisch> Medischinfo = new List<Medisch>();
+
+        public List<Medisch> medischinfo { get { return Medischinfo; } }
+
+        private List<Medicatie> Medicaties = new List<Medicatie>();
+        public List<Medicatie> medicaties { get { return Medicaties; } }
+
+        private List<Medischonderzoek> Medischonderzoeken = new List<papegaaiencostumclasses.Medischonderzoek>();
+
+        public List<Medischonderzoek> medischonderzoeken { get { return Medischonderzoeken; } }
+
+        private List<Papegaai> Papegaaien = new List<Papegaai>();
+
+        public List<Papegaai> papegaaien { get { return Papegaaien; } }
+
+        private List<Persoon> Personen = new List<Persoon>();
+
+        public List<Persoon> personen { get { return Personen; } }
+
+    }
         public class savingandloading
         {
             /// <summary>

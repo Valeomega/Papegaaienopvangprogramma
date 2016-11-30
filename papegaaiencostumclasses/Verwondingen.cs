@@ -12,6 +12,6 @@ namespace papegaaiencostumclasses
         public string Infoverwonding { get; set; }
         public string oorzaak { get; set; }
         public DateTime date { get; set; }
-        public string waarnemer { get; set; }
+        public Persoon waarnemer { get; set; }
     }
 }
