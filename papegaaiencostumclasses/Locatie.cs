@@ -9,7 +9,7 @@ namespace papegaaiencostumclasses
     [Serializable]
     public class Locatie
     {
-        private string NAAM = new string();
+        private string NAAM;
         private List<Kooi> KOOIEN = new List<Kooi>();
         private bool TOEGANG = new bool();
         public string naam { get { return NAAM; } }

@@ -19,6 +19,7 @@ namespace Papegaaienopvangprogramma
         public REPO repoload = new REPO();
         public Mainmenu()
         {
+           
             InitializeComponent();
             try
             {
@@ -46,9 +47,54 @@ namespace Papegaaienopvangprogramma
          private void nieuwePapegaaiToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Papegaaitoevoegen pape = new Papegaaitoevoegen(repoload);
-            pape.Show();
+            pape.ShowDialog();
+            this.repoload = pape.reposhared;
+        }
 
-        }      
+        private void hoofdSoortToevoegenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Hoofdsoorttoevoegen form = new Hoofdsoorttoevoegen(repoload);
+            form.ShowDialog();
+            if ()
+            {
+                this.repoload = form.getrepo();
+            }
+        }
+
+        private void ondersoortToevoegenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Indpendantondersoort form = new Indpendantondersoort(repoload);
+            form.Show();
+            this.repoload = form.repoload;
+        }
+
+
+
+        private void soortInfoAanpasseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Vogelsoorteninfoaanpassen form = new Vogelsoorteninfoaanpassen(repoload);
+            this.repoload = form.repo;
+        }
+
+        private void toevoegenToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            VoedingToevoegen form = new VoedingToevoegen(repoload);
+        }
+
+        private void aanpassenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void afdrukkenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bewerkingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
      }
     

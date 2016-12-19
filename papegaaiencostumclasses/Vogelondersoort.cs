@@ -9,6 +9,9 @@ namespace papegaaiencostumclasses
    public class Vogelondersoort
     {
         public string Naam { get; set; }
-
+        public override string ToString()
+        {
+            return "Ondersoort: " + Naam;
+        }
     }
 }

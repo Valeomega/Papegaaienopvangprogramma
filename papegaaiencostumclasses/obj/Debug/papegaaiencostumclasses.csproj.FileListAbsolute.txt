@@ -5,3 +5,10 @@ C:\Users\epcs\Documents\Visual Studio 2015\Projects\Papegaaienopvangprogramma\pa
 C:\Users\epcs\Documents\Visual Studio 2015\Projects\Papegaaienopvangprogramma\papegaaiencostumclasses\bin\Debug\Newtonsoft.Json.xml
 C:\Users\epcs\Documents\Visual Studio 2015\Projects\Papegaaienopvangprogramma\papegaaiencostumclasses\obj\Debug\papegaaiencostumclasses.dll
 C:\Users\epcs\Documents\Visual Studio 2015\Projects\Papegaaienopvangprogramma\papegaaiencostumclasses\obj\Debug\papegaaiencostumclasses.pdb
+C:\Users\Guillermo\Documents\Visual Studio 2015\Projects\Papegaaienopvangprogramma-master\papegaaiencostumclasses\obj\Debug\papegaaiencostumclasses.csprojResolveAssemblyReference.cache
+C:\Users\Guillermo\Documents\Visual Studio 2015\Projects\Papegaaienopvangprogramma-master\papegaaiencostumclasses\obj\Debug\papegaaiencostumclasses.dll
+C:\Users\Guillermo\Documents\Visual Studio 2015\Projects\Papegaaienopvangprogramma-master\papegaaiencostumclasses\obj\Debug\papegaaiencostumclasses.pdb
+C:\Users\Guillermo\Documents\Visual Studio 2015\Projects\Papegaaienopvangprogramma-master\papegaaiencostumclasses\bin\Debug\papegaaiencostumclasses.dll
+C:\Users\Guillermo\Documents\Visual Studio 2015\Projects\Papegaaienopvangprogramma-master\papegaaiencostumclasses\bin\Debug\papegaaiencostumclasses.pdb
+C:\Users\Guillermo\Documents\Visual Studio 2015\Projects\Papegaaienopvangprogramma-master\papegaaiencostumclasses\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Guillermo\Documents\Visual Studio 2015\Projects\Papegaaienopvangprogramma-master\papegaaiencostumclasses\bin\Debug\Newtonsoft.Json.xml

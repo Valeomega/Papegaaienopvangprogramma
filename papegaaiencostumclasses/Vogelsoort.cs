@@ -10,6 +10,12 @@ namespace papegaaiencostumclasses
     {
         public string Soortnaam { get; set; }
         public List<Vogelondersoort> ondersoorten { get; set; }
-        public Voeding VogelVastevoeding { get; set; }
+        public List<Voeding> VogelVastevoeding { get; set; }
+
+        public override string ToString()
+        {
+            return "Soortnaam: " + Soortnaam;
+        }
     }
+
 }

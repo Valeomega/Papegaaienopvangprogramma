@@ -43,13 +43,14 @@
             this.textBoxCitesNR = new System.Windows.Forms.TextBox();
             this.comboBoxVogelsoort = new System.Windows.Forms.ComboBox();
             this.comboBoxOndersoort = new System.Windows.Forms.ComboBox();
-            this.comboBoxSEX = new System.Windows.Forms.ComboBox();
+            this.radioButtonMan = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // labelNaam
             // 
             this.labelNaam.AutoSize = true;
-            this.labelNaam.Location = new System.Drawing.Point(13, 13);
+            this.labelNaam.Location = new System.Drawing.Point(13, 46);
             this.labelNaam.Name = "labelNaam";
             this.labelNaam.Size = new System.Drawing.Size(35, 13);
             this.labelNaam.TabIndex = 0;
@@ -58,7 +59,7 @@
             // labelVogelsoort
             // 
             this.labelVogelsoort.AutoSize = true;
-            this.labelVogelsoort.Location = new System.Drawing.Point(12, 59);
+            this.labelVogelsoort.Location = new System.Drawing.Point(12, 92);
             this.labelVogelsoort.Name = "labelVogelsoort";
             this.labelVogelsoort.Size = new System.Drawing.Size(57, 13);
             this.labelVogelsoort.TabIndex = 1;
@@ -67,7 +68,7 @@
             // labelOndersoort
             // 
             this.labelOndersoort.AutoSize = true;
-            this.labelOndersoort.Location = new System.Drawing.Point(13, 114);
+            this.labelOndersoort.Location = new System.Drawing.Point(13, 147);
             this.labelOndersoort.Name = "labelOndersoort";
             this.labelOndersoort.Size = new System.Drawing.Size(59, 13);
             this.labelOndersoort.TabIndex = 2;
@@ -76,7 +77,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 165);
+            this.label1.Location = new System.Drawing.Point(13, 198);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(25, 13);
             this.label1.TabIndex = 3;
@@ -85,7 +86,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(13, 194);
+            this.label2.Location = new System.Drawing.Point(13, 227);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(48, 13);
             this.label2.TabIndex = 4;
@@ -94,7 +95,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 221);
+            this.label3.Location = new System.Drawing.Point(12, 254);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(108, 13);
             this.label3.TabIndex = 5;
@@ -103,7 +104,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 249);
+            this.label4.Location = new System.Drawing.Point(12, 282);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(49, 13);
             this.label4.TabIndex = 6;
@@ -111,7 +112,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(180, 305);
+            this.button1.Location = new System.Drawing.Point(180, 338);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 7;
@@ -121,7 +122,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(298, 305);
+            this.button2.Location = new System.Drawing.Point(298, 338);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 8;
@@ -131,28 +132,28 @@
             // 
             // textBoxNaam
             // 
-            this.textBoxNaam.Location = new System.Drawing.Point(133, 6);
+            this.textBoxNaam.Location = new System.Drawing.Point(133, 39);
             this.textBoxNaam.Name = "textBoxNaam";
             this.textBoxNaam.Size = new System.Drawing.Size(222, 20);
             this.textBoxNaam.TabIndex = 9;
             // 
             // textBoxRingNR
             // 
-            this.textBoxRingNR.Location = new System.Drawing.Point(133, 186);
+            this.textBoxRingNR.Location = new System.Drawing.Point(133, 219);
             this.textBoxRingNR.Name = "textBoxRingNR";
             this.textBoxRingNR.Size = new System.Drawing.Size(222, 20);
             this.textBoxRingNR.TabIndex = 11;
             // 
             // textBoxRegNRin
             // 
-            this.textBoxRegNRin.Location = new System.Drawing.Point(133, 221);
+            this.textBoxRegNRin.Location = new System.Drawing.Point(133, 254);
             this.textBoxRegNRin.Name = "textBoxRegNRin";
             this.textBoxRegNRin.Size = new System.Drawing.Size(222, 20);
             this.textBoxRegNRin.TabIndex = 12;
             // 
             // textBoxCitesNR
             // 
-            this.textBoxCitesNR.Location = new System.Drawing.Point(133, 249);
+            this.textBoxCitesNR.Location = new System.Drawing.Point(133, 282);
             this.textBoxCitesNR.Name = "textBoxCitesNR";
             this.textBoxCitesNR.Size = new System.Drawing.Size(222, 20);
             this.textBoxCitesNR.TabIndex = 13;
@@ -160,7 +161,7 @@
             // comboBoxVogelsoort
             // 
             this.comboBoxVogelsoort.FormattingEnabled = true;
-            this.comboBoxVogelsoort.Location = new System.Drawing.Point(133, 51);
+            this.comboBoxVogelsoort.Location = new System.Drawing.Point(133, 84);
             this.comboBoxVogelsoort.Name = "comboBoxVogelsoort";
             this.comboBoxVogelsoort.Size = new System.Drawing.Size(222, 21);
             this.comboBoxVogelsoort.TabIndex = 14;
@@ -168,28 +169,40 @@
             // comboBoxOndersoort
             // 
             this.comboBoxOndersoort.FormattingEnabled = true;
-            this.comboBoxOndersoort.Location = new System.Drawing.Point(133, 106);
+            this.comboBoxOndersoort.Location = new System.Drawing.Point(133, 139);
             this.comboBoxOndersoort.Name = "comboBoxOndersoort";
             this.comboBoxOndersoort.Size = new System.Drawing.Size(222, 21);
             this.comboBoxOndersoort.TabIndex = 15;
             // 
-            // comboBoxSEX
+            // radioButtonMan
             // 
-            this.comboBoxSEX.FormattingEnabled = true;
-            this.comboBoxSEX.Items.AddRange(new object[] {
-            "Man",
-            "Pop"});
-            this.comboBoxSEX.Location = new System.Drawing.Point(133, 159);
-            this.comboBoxSEX.Name = "comboBoxSEX";
-            this.comboBoxSEX.Size = new System.Drawing.Size(222, 21);
-            this.comboBoxSEX.TabIndex = 16;
+            this.radioButtonMan.AutoSize = true;
+            this.radioButtonMan.Location = new System.Drawing.Point(133, 193);
+            this.radioButtonMan.Name = "radioButtonMan";
+            this.radioButtonMan.Size = new System.Drawing.Size(46, 17);
+            this.radioButtonMan.TabIndex = 16;
+            this.radioButtonMan.TabStop = true;
+            this.radioButtonMan.Text = "Man";
+            this.radioButtonMan.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(213, 193);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(44, 17);
+            this.radioButton1.TabIndex = 17;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Pop";
+            this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // Papegaaitoevoegen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(382, 340);
-            this.Controls.Add(this.comboBoxSEX);
+            this.ClientSize = new System.Drawing.Size(382, 372);
+            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.radioButtonMan);
             this.Controls.Add(this.comboBoxOndersoort);
             this.Controls.Add(this.comboBoxVogelsoort);
             this.Controls.Add(this.textBoxCitesNR);
@@ -229,6 +242,7 @@
         private System.Windows.Forms.TextBox textBoxCitesNR;
         private System.Windows.Forms.ComboBox comboBoxVogelsoort;
         private System.Windows.Forms.ComboBox comboBoxOndersoort;
-        private System.Windows.Forms.ComboBox comboBoxSEX;
+        private System.Windows.Forms.RadioButton radioButtonMan;
+        private System.Windows.Forms.RadioButton radioButton1;
     }
 }
