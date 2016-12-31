@@ -1,0 +1,13 @@
+31/12/2016 14:02:17	This log contains information about the import operation of the script 'SqlQuery_1.sql' into project 'DatabasePAPEGAAIKUTVOGEL' on computer 'DESKTOP-HGMMQ81' by user'Guillermo.
+31/12/2016 14:02:17	Started importing file: C:\Users\Guillermo\Documents\GitHub\Papegaaienopvangprogramma\SqlQuery_1.sql 
+31/12/2016 14:02:17	File name C:\Users\Guillermo\Documents\GitHub\Papegaaienopvangprogramma\SqlQuery_1.sql (size: 4410)
+31/12/2016 14:02:18	Parsing import script
+31/12/2016 14:02:18	Total number of batches in script: 1
+31/12/2016 14:02:18	Total number of statements in script: 24
+31/12/2016 14:02:18	The script was successfully imported into the project.
+31/12/2016 14:02:18	Analyzing schema objects...
+31/12/2016 14:02:18	Scanning project for duplicate elements
+31/12/2016 14:02:18	Finished duplicate element processing
+31/12/2016 14:02:19	In the script that you provided to the import operation, one or more statements were not fully understood. These statements were moved to the ScriptsIgnoredOnImport.sql file. Review the file contents for additional information.
+31/12/2016 14:02:19	A summary of the import was saved to the following location: C:\Users\Guillermo\Documents\GitHub\Papegaaienopvangprogramma\DatabasePAPEGAAIKUTVOGEL\Import Script Logs\SqlQuery_1_sql_20161231010217.log
+31/12/2016 14:02:19	Click Finish to continue...

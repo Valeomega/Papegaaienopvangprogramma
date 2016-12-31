@@ -17,5 +17,6 @@ namespace papegaaiencostumclasses
         public string email { get; set; }
         public string gsmnr { get; set; }
         public string rekeningr { get; set; }
+        public string extranotities { get; set; }
     }
 }

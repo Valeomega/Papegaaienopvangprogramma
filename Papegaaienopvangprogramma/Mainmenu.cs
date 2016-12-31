@@ -55,10 +55,8 @@ namespace Papegaaienopvangprogramma
         {
             Hoofdsoorttoevoegen form = new Hoofdsoorttoevoegen(repoload);
             form.ShowDialog();
-            if ()
-            {
-                this.repoload = form.getrepo();
-            }
+            
+            
         }
 
         private void ondersoortToevoegenToolStripMenuItem_Click(object sender, EventArgs e)
