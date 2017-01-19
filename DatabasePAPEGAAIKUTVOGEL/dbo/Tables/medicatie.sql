@@ -1,7 +1,6 @@
-﻿create table medicatie
-(
-id int primary key not null,
-Naam varchar not null,
-idlistrassen int foreign key references medras(Idmed),
-
-);
+﻿CREATE TABLE medicatie
+  (
+     id           INT PRIMARY KEY NOT NULL,
+     naam         VARCHAR(200) NOT NULL,
+     idlistrassen INT FOREIGN KEY REFERENCES medras(idmed)
+  )

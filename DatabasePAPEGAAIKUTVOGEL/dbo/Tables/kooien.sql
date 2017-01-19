@@ -1,12 +1,12 @@
-﻿create table kooien
-(
-Kooiid int NOT NULL PRIMARY KEY,
-Kooidlistppg int foreign key references kooientoppg(Id),
-quarantaine bit not null ,
-idvogelsoort int not null foreign key references vogelsoort(id),
-idvogelondersoort int not null foreign key references ondersoort(id) ,
-vasteoflossekooie bit not null,
-bezetofniet bit not null,
-idlistsponsor int not null foreign key references kooisponsortopersonen(id) ,
-
-);
+﻿CREATE TABLE kooien
+  (
+     kooiid            INT NOT NULL PRIMARY KEY,
+     kooidlistppg      INT FOREIGN KEY REFERENCES kooientoppg(id),
+     quarantaine       BIT NOT NULL,
+     idvogelsoort      INT NOT NULL FOREIGN KEY REFERENCES vogelsoort(id),
+     idvogelondersoort INT NOT NULL FOREIGN KEY REFERENCES ondersoort(id),
+     vasteoflossekooie BIT NOT NULL,
+     bezetofniet       BIT NOT NULL,
+     idlistsponsor     INT NOT NULL FOREIGN KEY REFERENCES kooisponsortopersonen
+     (id)
+  )

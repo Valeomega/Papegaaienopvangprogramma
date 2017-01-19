@@ -1,4 +1,5 @@
-﻿create table medischonderzoek(
-id int primary key not null,
-idklachten int foreign key references klachtentoklacht(id),
-);
+﻿CREATE TABLE medischonderzoek
+  (
+     id         INT PRIMARY KEY NOT NULL,
+     idklachten INT FOREIGN KEY REFERENCES klachtentoklacht(id)
+  )

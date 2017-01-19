@@ -1,0 +1,13 @@
+1/01/2017 20:37:22	This log contains information about the import operation of the script 'sqlmysql.sql' into project 'DatabasePAPEGAAIKUTVOGEL' on computer 'DESKTOP-HGMMQ81' by user'Guillermo.
+1/01/2017 20:37:22	Started importing file: C:\Users\Guillermo\Documents\GitHub\Papegaaienopvangprogramma\sqlmysql.sql 
+1/01/2017 20:37:22	File name C:\Users\Guillermo\Documents\GitHub\Papegaaienopvangprogramma\sqlmysql.sql (size: 5527)
+1/01/2017 20:37:22	Parsing import script
+1/01/2017 20:37:22	Total number of batches in script: 1
+1/01/2017 20:37:22	Total number of statements in script: 23
+1/01/2017 20:37:22	The script was successfully imported into the project.
+1/01/2017 20:37:22	Analyzing schema objects...
+1/01/2017 20:37:22	Scanning project for duplicate elements
+1/01/2017 20:37:22	Finished duplicate element processing
+1/01/2017 20:37:23	In the script that you provided to the import operation, one or more statements were not fully understood. These statements were moved to the ScriptsIgnoredOnImport.sql file. Review the file contents for additional information.
+1/01/2017 20:37:23	A summary of the import was saved to the following location: C:\Users\Guillermo\Documents\GitHub\Papegaaienopvangprogramma\DatabasePAPEGAAIKUTVOGEL\Import Script Logs\sqlmysql_sql_20170101073722.log
+1/01/2017 20:37:23	Click Finish to continue...

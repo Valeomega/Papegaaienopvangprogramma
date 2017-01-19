@@ -1,5 +1,5 @@
-﻿create table kurenconect
-(
-id int not null ,
-idkuur int not null 
-);
+﻿CREATE TABLE kurenconect
+  (
+     id     INT NOT NULL,
+     idkuur INT NOT NULL
+  )

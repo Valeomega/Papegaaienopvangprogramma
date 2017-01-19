@@ -1,6 +1,7 @@
-﻿create table vogelsoort(
-id int primary key not null,
-naam varchar not null,
-idtolistsubsoorten int foreign key references hoofdtoonder(id) not null,
-idtovoeding int foreign key references hoofdtovoed(id) not null,
-);
+﻿CREATE TABLE vogelsoort
+  (
+     id                 INT PRIMARY KEY NOT NULL,
+     naam               VARCHAR(200) NOT NULL,
+     idtolistsubsoorten INT FOREIGN KEY REFERENCES hoofdtoonder(id) NOT NULL,
+     idtovoeding        INT FOREIGN KEY REFERENCES hoofdtovoed(id) NOT NULL
+  )

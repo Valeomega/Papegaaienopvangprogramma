@@ -30,12 +30,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Transactions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,7 +50,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="databaseconnect.cs" />
+    <Compile Include="Databaseconnector.cs" />
+    <Compile Include="datanallyspapegaaienDataSet.cs">
+      <DependentUpon>datanallyspapegaaienDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="datanallyspapegaaienDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>datanallyspapegaaienDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="ID.cs" />
     <Compile Include="Kooi.cs" />
     <Compile Include="Kuur.cs" />
@@ -55,6 +69,11 @@
     <Compile Include="Papegaai.cs" />
     <Compile Include="Persoon.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
     <Compile Include="REPO.cs" />
     <Compile Include="Verwondingen.cs" />
     <Compile Include="Voeding.cs" />
@@ -62,7 +81,26 @@
     <Compile Include="Vogelsoort.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
+    <None Include="datanallyspapegaaienDataSet.xsc">
+      <DependentUpon>datanallyspapegaaienDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="datanallyspapegaaienDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>datanallyspapegaaienDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="datanallyspapegaaienDataSet.xss">
+      <DependentUpon>datanallyspapegaaienDataSet.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

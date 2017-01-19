@@ -1,6 +1,5 @@
-﻿create table loctokooi
-(
-Idloc int not null ,
-idkooi int foreign key references kooien(Kooiid) not null,
-
-);
+﻿CREATE TABLE loctokooi
+  (
+     idloc  INT NOT NULL,
+     idkooi INT FOREIGN KEY REFERENCES kooien(kooiid) NOT NULL
+  )

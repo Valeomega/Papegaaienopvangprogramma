@@ -55,6 +55,8 @@ namespace papegaaiencostumclasses
     }
         public class savingandloading
         {
+
+
             /// <summary>
             /// Writes the given object instance to a Json file.
             /// <para>Object type must have a parameterless constructor.</para>

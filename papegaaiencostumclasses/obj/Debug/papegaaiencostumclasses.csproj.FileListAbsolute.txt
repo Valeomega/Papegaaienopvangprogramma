@@ -19,3 +19,8 @@ C:\Users\Guillermo\Documents\GitHub\Papegaaienopvangprogramma\papegaaiencostumcl
 C:\Users\Guillermo\Documents\GitHub\Papegaaienopvangprogramma\papegaaiencostumclasses\obj\Debug\papegaaiencostumclasses.csprojResolveAssemblyReference.cache
 C:\Users\Guillermo\Documents\GitHub\Papegaaienopvangprogramma\papegaaiencostumclasses\obj\Debug\papegaaiencostumclasses.dll
 C:\Users\Guillermo\Documents\GitHub\Papegaaienopvangprogramma\papegaaiencostumclasses\obj\Debug\papegaaiencostumclasses.pdb
+C:\Users\Guillermo\Documents\GitHub\Papegaaienopvangprogramma\papegaaiencostumclasses\bin\Debug\papegaaiencostumclasses.dll.config
+C:\Users\Guillermo\Documents\GitHub\Papegaaienopvangprogramma\papegaaiencostumclasses\bin\Debug\papegaaiencostumclasses.dll.CodeAnalysisLog.xml
+C:\Users\Guillermo\Documents\GitHub\Papegaaienopvangprogramma\papegaaiencostumclasses\bin\Debug\papegaaiencostumclasses.dll.lastcodeanalysissucceeded
+C:\Users\Guillermo\Documents\GitHub\Papegaaienopvangprogramma\papegaaiencostumclasses\bin\Debug\MySql.Data.dll
+C:\Users\Guillermo\Documents\GitHub\Papegaaienopvangprogramma\papegaaiencostumclasses\bin\Debug\MySql.Data.xml

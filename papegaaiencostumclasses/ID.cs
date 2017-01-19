@@ -14,5 +14,6 @@ namespace papegaaiencostumclasses
         public int registratienrout { get; set; }
         public string CITESNR { get; set; }
 
+
     }
 }

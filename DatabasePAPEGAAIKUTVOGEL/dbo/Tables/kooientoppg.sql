@@ -1,6 +1,5 @@
-﻿create table kooientoppg
-(
-Id int primary key not null,
-idpapegaaien int foreign key references papegaaien(Id),
-
-);
+﻿CREATE TABLE kooientoppg
+  (
+     id           INT PRIMARY KEY NOT NULL,
+     idpapegaaien INT FOREIGN KEY REFERENCES papegaaien(id)
+  )

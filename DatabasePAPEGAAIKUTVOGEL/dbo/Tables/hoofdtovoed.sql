@@ -1,4 +1,5 @@
-﻿create table hoofdtovoed(
-id int not null,
-idvoeding int foreign key references voeding(id) not null,
-);
+﻿CREATE TABLE hoofdtovoed
+  (
+     id        INT NOT NULL,
+     idvoeding INT FOREIGN KEY REFERENCES voeding(id) NOT NULL
+  )

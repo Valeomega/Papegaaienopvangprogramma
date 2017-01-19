@@ -1,7 +1,7 @@
-﻿create table locatie
-(
-id int primary key not null,
-idkooilist int foreign key references loctokooi(Idloc) not null,
-toegang bit not null,
-naam varchar not null,
-);
+﻿CREATE TABLE locatie
+  (
+     id         INT PRIMARY KEY NOT NULL,
+     idkooilist INT FOREIGN KEY REFERENCES loctokooi(idloc) NOT NULL,
+     toegang    BIT NOT NULL,
+     naam       VARCHAR NOT NULL
+  )

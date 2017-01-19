@@ -1,5 +1,5 @@
-﻿create table medras
-(
-Idmed int not null,
-idrass int not null foreign key references vogelsoort(id), 
-);
+﻿CREATE TABLE medras
+  (
+     idmed  INT NOT NULL,
+     idrass INT NOT NULL FOREIGN KEY REFERENCES vogelsoort(id)
+  )

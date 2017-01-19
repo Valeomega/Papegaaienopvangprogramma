@@ -1,14 +1,15 @@
-﻿create table personen(
-id int primary key not null,
-naam varchar not null,
-achternaam varchar not null,
-straatnaam varchar not null,
-straatnr int not null,
-postcode int not null,
-telnr varchar not null,
-email varchar not null,
-gsmnr varchar not null,
-rekeningnr varchar not null,
-xrtanotities varchar not null,
-
-);
+﻿CREATE TABLE personen
+  (
+     id           INT NOT NULL,
+     naam         VARCHAR(200) NOT NULL,
+     achternaam   VARCHAR(200) NOT NULL,
+     straatnaam   VARCHAR(200) NOT NULL,
+     straatnr     INT NOT NULL,
+     postcode     INT NOT NULL,
+     telnr        VARCHAR(200) NOT NULL,
+     email        VARCHAR(200) NOT NULL,
+     gsmnr        VARCHAR(200) NOT NULL,
+     rekeningnr   VARCHAR(200) NOT NULL,
+     xrtanotities VARCHAR(200) NOT NULL,
+     PRIMARY KEY (id)
+  )

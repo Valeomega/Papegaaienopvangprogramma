@@ -1,4 +1,5 @@
-﻿create table hoofdtoonder(
-id int not null,
-idondersoorten int foreign key references ondersoort(id) not null,
-);
+﻿CREATE TABLE hoofdtoonder
+  (
+     id             INT NOT NULL,
+     idondersoorten INT FOREIGN KEY REFERENCES ondersoort(id) NOT NULL,
+  )

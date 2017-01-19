@@ -1,8 +1,8 @@
-﻿create table kuur
-(
-IDkuur int not null primary key,
-idkuurmedicatie int not null foreign key references medicatie(id),
-Uurvanaanbreng datetime not null,
-dosering decimal not null,
-extrainfo varchar , 
-);
+﻿CREATE TABLE kuur
+  (
+     idkuur          INT NOT NULL PRIMARY KEY,
+     idkuurmedicatie INT NOT NULL FOREIGN KEY REFERENCES medicatie(id),
+     uurvanaanbreng  DATETIME NOT NULL,
+     dosering        DECIMAL NOT NULL,
+     extrainfo       VARCHAR
+  )

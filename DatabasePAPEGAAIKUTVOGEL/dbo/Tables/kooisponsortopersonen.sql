@@ -1,4 +1,5 @@
-﻿create table kooisponsortopersonen(
-id int primary key not null,
-idpersonen int foreign key references personen(id) not null ,
-);
+﻿CREATE TABLE kooisponsortopersonen
+  (
+     id         INT PRIMARY KEY NOT NULL,
+     idpersonen INT FOREIGN KEY REFERENCES personen(id) NOT NULL
+  )

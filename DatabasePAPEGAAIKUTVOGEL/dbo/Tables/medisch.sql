@@ -1,8 +1,7 @@
-﻿create table medisch
-(
-id int primary key not null ,
-vastekuurid int foreign key references kuur(IDkuur),
-idrefkuren int foreign key references kurenconect(id) ,
-idmedischonderzoek int foreign key references medischonderzoekconnect(id) not null
-
-);
+﻿CREATE TABLE medisch
+  (
+     id                 INT PRIMARY KEY NOT NULL,
+     vastekuurid        INT FOREIGN KEY REFERENCES kuur(idkuur),
+     idrefkuren         INT FOREIGN KEY REFERENCES kurenconect(id),
+     idmedischonderzoek INT FOREIGN KEY REFERENCES medischonderzoekconnect(id) NOT NULL
+  )

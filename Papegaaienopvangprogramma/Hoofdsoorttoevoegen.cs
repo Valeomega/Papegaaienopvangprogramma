@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using papegaaiencostumclasses;
+using MySql;
 
 namespace Papegaaienopvangprogramma
 {
@@ -17,6 +18,7 @@ namespace Papegaaienopvangprogramma
         static List<Vogelondersoort> list = new List<Vogelondersoort>();
         public Hoofdsoorttoevoegen(REPO repo)
         {
+            
             InitializeComponent();
         }
 
@@ -27,6 +29,7 @@ namespace Papegaaienopvangprogramma
             listBox1.Items.Add(vogelonder);
             list.Add(vogelonder);
             
+            
         }
 
         private void buttonToevoegen_Click(object sender, EventArgs e)
@@ -35,8 +38,9 @@ namespace Papegaaienopvangprogramma
             vogel.Soortnaam = textBoxVOGELSOORTNAAM.Text;
             vogel.ondersoorten = list;
             repoload.vogelsoorten.Add(vogel);
-            
-           
+            //INSERT INTO `datanallyspapegaaien`.`vogelsoort` (`naam`) VALUES (vogelsoortnaam);
+            //
+
         }
         public REPO getrepo()
         {

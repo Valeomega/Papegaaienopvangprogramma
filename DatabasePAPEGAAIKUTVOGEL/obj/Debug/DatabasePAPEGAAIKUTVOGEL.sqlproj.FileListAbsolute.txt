@@ -1,0 +1,9 @@
+C:\Users\Guillermo\Documents\GitHub\Papegaaienopvangprogramma\DatabasePAPEGAAIKUTVOGEL\bin\Debug\DatabasePAPEGAAIKUTVOGEL.dacpac
+C:\Users\Guillermo\Documents\GitHub\Papegaaienopvangprogramma\DatabasePAPEGAAIKUTVOGEL\bin\Debug\DatabasePAPEGAAIKUTVOGEL.dll
+C:\Users\Guillermo\Documents\GitHub\Papegaaienopvangprogramma\DatabasePAPEGAAIKUTVOGEL\bin\Debug\DatabasePAPEGAAIKUTVOGEL.pdb
+C:\Users\Guillermo\Documents\GitHub\Papegaaienopvangprogramma\DatabasePAPEGAAIKUTVOGEL\obj\Debug\Model.xml
+C:\Users\Guillermo\Documents\GitHub\Papegaaienopvangprogramma\DatabasePAPEGAAIKUTVOGEL\obj\Debug\refactor.xml
+C:\Users\Guillermo\Documents\GitHub\Papegaaienopvangprogramma\DatabasePAPEGAAIKUTVOGEL\obj\Debug\postdeploy.sql
+C:\Users\Guillermo\Documents\GitHub\Papegaaienopvangprogramma\DatabasePAPEGAAIKUTVOGEL\obj\Debug\predeploy.sql
+C:\Users\Guillermo\Documents\GitHub\Papegaaienopvangprogramma\DatabasePAPEGAAIKUTVOGEL\obj\Debug\DatabasePAPEGAAIKUTVOGEL.dll
+C:\Users\Guillermo\Documents\GitHub\Papegaaienopvangprogramma\DatabasePAPEGAAIKUTVOGEL\obj\Debug\DatabasePAPEGAAIKUTVOGEL.pdb

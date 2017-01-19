@@ -1,15 +1,15 @@
-﻿create table papegaaien
-(
-Id int primary key not null,
-Naam varchar ,
-idHoofdsoort int foreign key references vogelsoort(id) not null,
-idOndersoort int foreign key references ondersoort(id) not null,
-sex bit not null,
-idmeter int foreign key references personen(id) not null,
-idpeter int foreign key references personen(id) not null,
-idmedischeinfo int foreign key references medisch(id),
-identificationid int foreign key references identificationsystem(idfromid) not null,
-aanofafwezig bit not null,
-redenvanafwezig varchar,
-idadoptant int foreign key references personen(id),
-);
+﻿CREATE TABLE papegaaien
+  (
+     id               INT PRIMARY KEY NOT NULL,
+     naam             VARCHAR(200),
+     idhoofdsoort     INT FOREIGN KEY REFERENCES vogelsoort(id) NOT NULL,
+     idondersoort     INT FOREIGN KEY REFERENCES ondersoort(id) NOT NULL,
+     sex              BIT NOT NULL,
+     idmeter          INT FOREIGN KEY REFERENCES personen(id) NOT NULL,
+     idpeter          INT FOREIGN KEY REFERENCES personen(id) NOT NULL,
+     idmedischeinfo   INT FOREIGN KEY REFERENCES medisch(id),
+     identificationid INT FOREIGN KEY REFERENCES identificationsystem(idfromid) NOT NULL,
+     aanofafwezig     BIT NOT NULL,
+     redenvanafwezig  VARCHAR,
+     idadoptant       INT FOREIGN KEY REFERENCES personen(id)
+  )
